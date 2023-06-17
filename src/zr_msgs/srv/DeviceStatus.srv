@@ -1,0 +1,9 @@
+string deviceKey
+---
+string deviceUnique #单个设备唯一标识
+string floorNum #电梯所在楼层
+string liftState #电梯状态 3:停层
+string doorStatus #电梯开门状态：0：关门到位 1：开门中 2：关门中 3：开门中或关门中 4：开门到位
+string isOnline #是否在线状态 0:在线 1：不在线
+uint8 msgCode
+string msg

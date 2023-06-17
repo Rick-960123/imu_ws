@@ -1,0 +1,3 @@
+bool Data #True: Open, False: Close
+---
+string Status

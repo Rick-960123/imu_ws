@@ -1,0 +1,4 @@
+string confirm#向任务管理节点发送是否需要乘梯的请求
+---
+bool result#确认是否需要开始乘梯流程
+string msg#如果需要可以反馈一些其他信息

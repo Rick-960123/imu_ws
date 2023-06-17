@@ -1,0 +1,11 @@
+string courtId
+string building
+string cell
+string action
+string gateNode
+int32 gateCommand
+string liftNode
+int32 currentFloor
+int32 moving
+string currentLift
+int32 goalFloor

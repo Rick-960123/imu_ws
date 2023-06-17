@@ -1,0 +1,6 @@
+int32 task_id #启动或中断的任务id
+string act   #具体指令，即启动或中断
+patrol_target[] patrol_task #具体的任务列表 patrol_target: int32 id;int32[] target_list;int32 floor_number
+---
+string msg   #返回的消息 成功或失败
+int32 interrupt_task_id  #如果有被中断的任务，返回该任务的id

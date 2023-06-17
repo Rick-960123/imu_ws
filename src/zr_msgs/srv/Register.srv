@@ -1,0 +1,5 @@
+string deviceKey
+int8 floors
+---
+uint8 msgCode
+string msg

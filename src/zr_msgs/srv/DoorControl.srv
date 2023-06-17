@@ -1,0 +1,6 @@
+string deviceKey  #单个设备唯一标识
+uint8 effectiveTime #开、关门按钮控制，范围：“0”—“99” “0”：松开按钮 #“1”：短按一次按钮 #“2”—“99”：按下按钮，“2”—“99”秒后松开
+---
+string isOpen
+uint8 msgCode
+string msg

@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="zhen_imu_driver" type="imu_driver" name="imu_node" output="screen"/>
+    <param name="imu_port" value="/dev/ttyUSB0" />
+
+</launch>

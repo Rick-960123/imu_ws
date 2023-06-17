@@ -1,0 +1,5 @@
+int32 task_id #本次巡检任务的id
+int32 point_id #拍照的点位(用于后续上传照片的命名)
+string act   #具体指令，目前为“capture”，即截取一张全景图
+---
+string msg   #返回的消息 成功或失败

@@ -1,0 +1,4 @@
+bool Data #True: Open, False: Close
+int8 Device_Number #设备编号,区别园区内多台设备
+---
+string Status
