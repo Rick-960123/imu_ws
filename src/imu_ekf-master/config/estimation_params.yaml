@@ -1,12 +1,12 @@
 imu_topic_freq: 100
 gravity: 9.80665
 
-useOdom: true
+useOdom: false
 useVO: false
-useTwist: false
+useTwist: true
 camera_vo_topic: "pose"
-odom_topic: "wheek_odom"
-imu_topic: "/xbotcore/imu/imu_link"
+odom_topic: "wheel_odom"
+imu_topic: "imu_data"
 twist_topic: "twist"
 
 
@@ -16,18 +16,18 @@ T_B_A: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0 ,1 ,0, 0, 0, 0 ,0, 1]
 T_B_G: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0 ,1 ,0, 0, 0, 0 ,0, 1]
 
 #Process Noise STDs
-AccBiasSTDx:  0.000382554 #  m/s^2/sqrt(Hz)
-AccBiasSTDy:  0.000382554
-AccBiasSTDz:  0.000382554
-GyroBiasSTDx: 8.67884e-06 
-GyroBiasSTDy: 8.67884e-06 # rad/s/sqrt(Hz)
-GyroBiasSTDz: 8.67884e-06
-AccSTDx: 0.00119907 # 150 micro g/sqrt(Hz) -> m/s^2 
-AccSTDy: 0.00119907
-AccSTDz: 0.00119907
-GyroSTDx: 0.00012 # 0.014deg/s/sqrt(Hz) -> rad/s/sqrt(Hz)
-GyroSTDy: 0.00012
-GyroSTDz: 0.00012
+AccBiasSTDx:  0.1 #  m/s^2/sqrt(Hz)
+AccBiasSTDy:  0.1
+AccBiasSTDz:  0.1
+GyroBiasSTDx: 0.1 
+GyroBiasSTDy: 0.1 # rad/s/sqrt(Hz)
+GyroBiasSTDz: 0.1
+AccSTDx: 0.1 # 150 micro g/sqrt(Hz) -> m/s^2 
+AccSTDy: 0.1
+AccSTDz: 0.1
+GyroSTDx: 0.1 # 0.014deg/s/sqrt(Hz) -> rad/s/sqrt(Hz)
+GyroSTDy: 0.1
+GyroSTDz: 0.1
 #Measurement Noise STDs
 #If use Odom Update 
 KinSTDx: 1.0e-04
@@ -38,9 +38,9 @@ KinSTDOrienty: 1.0e-02
 KinSTDOrientz: 1.0e-02
 
 #If use Twist Update
-velSTDx: 1.0e-1
-velSTDy: 1.0e-1
-velSTDz: 1.0e-1
+velSTDx: 1.0e-10
+velSTDy: 1.0e-10
+velSTDz: 1.0e-10
 
 #If use VO update
 VOSTDx: 1.0e-04
@@ -57,7 +57,7 @@ biasAZ: 0
 biasGX:  0
 biasGY:  0
 biasGZ:  0
-calibrateIMUbiases: True
+calibrateIMUbiases: false
 maxImuCalibrationCycles: 1000
 #set only if calibrateIMUbiases is True
 Mahony_Kp: 0.25

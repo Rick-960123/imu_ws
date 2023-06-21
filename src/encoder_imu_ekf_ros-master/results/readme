@@ -1,0 +1,5 @@
+### bag 转 tum:
+evo_traj bag odom_fast_lio_2023-06-05-14-31-55.bag /Odometry --save_as_tum
+### 轨迹对比
+evo_traj tum wheel_odom_zhen.tum --ref=Odometry.tum -p --plot_mode=xy
+### 轨迹误差
