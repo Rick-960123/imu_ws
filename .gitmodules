@@ -1,0 +1,33 @@
+[submodule "src/imu_to_odom"]
+	path = src/imu_to_odom
+	url = https://github.com/Abin1258/imu_to_odom
+[submodule "src/lidar_IMU_calib"]
+	path = src/lidar_IMU_calib
+	url = https://github.com/Abin1258/imu_to_odom
+[submodule "src/code_utils"]
+	path = src/code_utils
+	url = https://github.com/Abin1258/imu_to_odom
+[submodule "src/imu_utils"]
+	path = src/imu_utils
+	url = https://github.com/Abin1258/imu_to_odom
+[submodule "src/imu_tools"]
+	path = src/imu_tools
+	url = https://github.com/Abin1258/imu_to_odom
+[submodule "src/imu_odom"]
+	path = src/imu_odom
+	url = https://github.com/Abin1258/imu_to_odom
+[submodule "src/imu_calib"]
+	path = src/imu_calib
+	url = https://github.com/Abin1258/imu_to_odom
+[submodule "src/imu_odom"]
+	path = src/imu_odom
+	url = https://github.com/Abin1258/imu_to_odom
+[submodule "src/eskf-gps-imu-fusion"]
+	path = src/eskf-gps-imu-fusion
+	url = https://github.com/Abin1258/imu_to_odom
+[submodule "src/vio_data_simulation"]
+	path = src/vio_data_simulation
+	url = https://github.com/Abin1258/imu_to_odom
+[submodule "src/LiDAR_IMU_Init"]
+	path = src/LiDAR_IMU_Init
+	url = https://github.com/Abin1258/imu_to_odom
